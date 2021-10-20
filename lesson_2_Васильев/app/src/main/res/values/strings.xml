@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">lesson2</string>
+    <string name="first_activity_text_button">Первое активити</string>
+    <string name="second_activity_text_button">Второе активити</string>
+    <string name="first_activity_text">Sorry, there is nothing.</string>
+    <string name="button_text" translatable="false">Боль и страдания</string>
+    <string name="second_activity_button_text" translatable="false">Кнопка 1</string>
+</resources>

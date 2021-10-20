@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">lesson2</string>
+    <string name="first_activity_text_button">Первое активити</string>
+    <string name="second_activity_text_button">Второе активити</string>
+    <string name="first_activity_text">
+        Пустое вы сердечным ты\n
+        Она, обмолвясь, заменила\n
+        И все счастливые мечты\n
+        В душе влюбленной возбудила.\n
+        Пред ней задумчиво стою,\n
+        Свести очей с нее нет силы;\n
+        И говорю ей: как вы милы!\n
+        И мыслю: как тебя люблю! </string>
+</resources>
