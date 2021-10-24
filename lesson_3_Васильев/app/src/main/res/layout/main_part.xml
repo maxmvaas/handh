@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="507dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="30dp"
+        android:text="@string/personal_info"
+        android:textColor="@color/dark_orange" />
+
+    <TextView
+        style="@style/TitleContentStyle"
+        android:layout_marginTop="76dp"
+        android:text="@string/name" />
+
+    <TextView
+        style="@style/ContentStyle"
+        android:layout_marginTop="98dp"
+        android:text="@string/actual_name" />
+
+    <TextView
+        style="@style/TitleContentStyle"
+        android:layout_marginTop="148dp"
+        android:text="@string/surname" />
+
+    <TextView
+        style="@style/ContentStyle"
+        android:layout_marginTop="170dp"
+        android:text="@string/actual_surname" />
+
+    <TextView
+        style="@style/TitleContentStyle"
+        android:layout_marginTop="220dp"
+        android:text="@string/e_mail" />
+
+    <TextView
+        style="@style/ContentStyle"
+        android:layout_marginTop="242dp"
+        android:text="@string/actual_email" />
+
+    <TextView
+        style="@style/TitleContentStyle"
+        android:layout_marginTop="292dp"
+        android:text="@string/login" />
+
+    <TextView
+        style="@style/ContentStyle"
+        android:layout_marginTop="312dp"
+        android:text="@string/actual_login" />
+
+    <TextView
+        style="@style/TitleContentStyle"
+        android:layout_marginTop="364dp"
+        android:text="@string/region" />
+
+    <TextView
+        style="@style/ContentStyle"
+        android:layout_marginTop="386dp"
+        android:text="@string/actual_region" />
+
+    <ImageButton
+        android:id="@+id/edit_region"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_gravity="end"
+        android:layout_marginTop="371dp"
+        android:layout_marginEnd="16dp"
+        android:background="?selectableItemBackgroundBorderless"
+        android:padding="30dp"
+        android:src="@drawable/ic_edit" />
+
+    <TextView
+        android:id="@+id/exit_button"
+        android:layout_width="match_parent"
+        android:layout_height="72dp"
+        android:layout_marginTop="436dp"
+        android:background="?attr/selectableItemBackground"
+        android:clickable="true"
+        android:focusable="true"
+        android:paddingStart="71dp"
+        android:paddingTop="26dp"
+        android:paddingEnd="0dp"
+        android:text="@string/exit"
+        android:textColor="@color/content_color" />
+
+    <ImageView
+        android:id="@+id/exit"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="457dp"
+        android:src="@drawable/ic_menu_exit" />
+</FrameLayout>

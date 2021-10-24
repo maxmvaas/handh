@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <include
+        android:id="@+id/include_appbar"
+        layout="@layout/appbar"
+        android:layout_width="match_parent"
+        android:layout_height="184dp" />
+
+    <TextView
+        android:id="@+id/personal_info"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="30dp"
+        android:text="@string/personal_info"
+        android:textColor="@color/dark_orange"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/include_appbar" />
+
+    <TextView
+        style="@style/TitleContentStyle"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:text="@string/name"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/personal_info" />
+
+    <TextView
+        style="@style/ContentStyle"
+        android:layout_marginTop="52dp"
+        android:text="@string/actual_name"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/personal_info" />
+
+    <TextView
+        style="@style/TitleContentStyle"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="102dp"
+        android:text="@string/surname"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/personal_info" />
+
+    <TextView
+        style="@style/ContentStyle"
+        android:layout_marginTop="124dp"
+        android:text="@string/actual_surname"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/personal_info" />
+
+    <TextView
+        style="@style/TitleContentStyle"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="174dp"
+        android:text="@string/e_mail"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/personal_info" />
+
+    <TextView
+        style="@style/ContentStyle"
+        android:layout_marginTop="196dp"
+        android:text="@string/actual_email"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/personal_info" />
+
+    <TextView
+        style="@style/TitleContentStyle"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="246dp"
+        android:text="@string/login"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/personal_info" />
+
+    <TextView
+        android:id="@+id/textView3"
+        style="@style/ContentStyle"
+        android:layout_marginTop="268dp"
+        android:text="@string/actual_login"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/personal_info" />
+
+    <TextView
+        android:id="@+id/region"
+        style="@style/TitleContentStyle"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="318dp"
+        android:text="@string/region"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/personal_info" />
+
+    <TextView
+        style="@style/ContentStyle"
+        android:layout_marginTop="340dp"
+        android:text="@string/actual_region"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/personal_info" />
+
+    <ImageView
+        android:id="@+id/edit_region"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="-13dp"
+        android:layout_marginEnd="16dp"
+        android:background="?selectableItemBackgroundBorderless"
+        android:clickable="true"
+        android:padding="3dp"
+        android:src="@drawable/ic_edit"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/region" />
+
+    <TextView
+        android:id="@+id/exit_button"
+        android:layout_width="match_parent"
+        android:layout_height="72dp"
+        android:layout_marginTop="380dp"
+        android:background="?selectableItemBackground"
+        android:clickable="true"
+        android:gravity="center"
+        android:paddingStart="16dp"
+        android:paddingEnd="200dp"
+        android:text="@string/exit"
+        android:textColor="@color/content_color"
+        app:drawableStartCompat="@drawable/ic_menu_exit"
+        app:layout_constraintStart_toStartOf="@+id/include_appbar"
+        app:layout_constraintTop_toBottomOf="@+id/personal_info"
+        tools:ignore="RtlSymmetry" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

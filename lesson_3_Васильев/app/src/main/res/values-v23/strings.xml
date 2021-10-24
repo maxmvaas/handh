@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="first_activity_button">Первое активити</string>
+    <string name="second_activity_button">Второе активити</string>
+    <string name="third_activity_button">Третье активити</string>
+</resources>
