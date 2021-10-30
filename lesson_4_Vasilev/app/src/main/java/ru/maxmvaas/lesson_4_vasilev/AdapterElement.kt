@@ -1,0 +1,3 @@
+package ru.maxmvaas.lesson_4_vasilev
+
+interface AdapterElement
