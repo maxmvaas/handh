@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">lesson_5_Vasilev</string>
+    <string name="go_to_fourth_activity_button">go to 4</string>
+    <string name="go_to_second_activity_button">go to 2</string>
+    <string name="go_to_fourth_activity_again">go to 4 again</string>
+    <string name="go_to_third_activity_button">go to 3</string>
+    <string name="go_to_fifth_activity_button">go to 5</string>
+    <string name="go_to_main_activity_button">go to 1</string>
+    <string name="send_to_third_activity">send info to third activity</string>
+    <string name="deliver_result">deliver result</string>
+    <string name="go_to_fifth_activity_to_result_button">go to 5 for result</string>
+    <string name="save">Сохранить</string>
+    <string name="value">value</string>
+    <string name="go_to_sixth_activity_button">go to 6</string>
+    <string name="appbar_text">Услуги управляющей компании будут\n доступны после сдачи дома</string>
+    <string name="appbar_background">appbar background</string>
+    <string name="services">Услуги</string>
+    <string name="all_services">ВСЕ</string>
+    <string name="add_service">Предложить услугу</string>
+    <string name="service_image">service_image</string>
+    <string name="context_menu">context_menu</string>
+    <string name="favorite">favorite</string>
+</resources>
