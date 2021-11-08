@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">lesson_6_Vasilev</string>
+    <string name="search">Поиск</string>
+    <string name="first_option_text">Ладно</string>
+    <string name="second_option_text">Прохладно</string>
+    <string name="item_one">Item one</string>
+    <string name="item_two">Item two</string>
+    <string name="item_three">Item three</string>
+    <string name="lamp">lamp</string>
+    <string name="cold_water_icon">cold water icon</string>
+    <string name="serial_number_icon">serial number icon</string>
+    <string name="new_info">Новый показания</string>
+    <string name="info_button_icon">info button icon</string>
+    <string name="hint">35</string>
+    <string name="warning_text">Необходимо подать показания до 25.03.18</string>
+    <string name="electro_description">Показания сданы <b>16.02.18</b> и будут учтены при\n следующем расчете <b>25.02.18</b></string>
+    <string name="day">День</string>
+    <string name="night">Ночь</string>
+    <string name="electro_icon">electro icon</string>
+    <string name="electricity">Электроэнергия</string>
+    <string name="serial_number">54656553</string>
+    <string name="show_banner">Показать баннер</string>
+    <string name="hide_banner">Свернуть баннер</string>
+</resources>
