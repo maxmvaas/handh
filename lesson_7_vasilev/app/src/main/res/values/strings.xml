@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">lesson_7_vasilev</string>
+    <string name="normal_status_icon">normal status icon</string>
+    <string name="notification_button_icon">notification button icon</string>
+    <string name="info">Информация</string>
+    <string name="map">Карта</string>
+    <string name="open_or_close_bridge">open or close bridge</string>
+    <string name="update">Попробовать снова</string>
+    <string name="empty">Пусто</string>
+    <string name="remind">НАПОМНИТЬ</string>
+    <string name="remind_button_text">За 30 минут</string>
+</resources>
